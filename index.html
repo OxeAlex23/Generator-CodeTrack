@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator CodeTrack</title>
+
+    <style>
+        body {
+            display: flex;
+            height: 100dvh;
+            background-color: gray;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+        }
+
+        #btn-gerar {
+            width: 150px;
+            height: 30px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #result {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 35px;
+            font-weight: bold;
+        }
+
+        p {
+            color: rgb(117, 3, 3);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <header>
+            <h2>Gerador de código</h2>
+            <p>* Gera com 13 caracteres</p>
+        </header>
+        <button id="btn-gerar">Gerar code</button>
+        <span id="result"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
